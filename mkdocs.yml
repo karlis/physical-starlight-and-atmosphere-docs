@@ -1,6 +1,11 @@
-site_name: starlightDocs
-theme: readthedocs
+site_name: Physical Starlight and Atmosphere
+theme:
+  name: material
+  features:
+    - tabs
 site_url: http://starlight-manual.readthedocs.io/
+markdown_extensions:
+  - admonition
 pages:
   - About: index.md
   - Features: features.md
@@ -10,6 +15,7 @@ pages:
     - Fog: fog.md
   - Support:
     - Release Notes: release-notes.md
+    - Frequently Asked Questions: faq.md
     - Known Issues: issues.md
     - Contact: contact.md
 

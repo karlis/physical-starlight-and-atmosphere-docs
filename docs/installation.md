@@ -2,7 +2,8 @@
 
 [Blender 2.81+](https://www.blender.org/)
 
-Physical Starlight and Atmosphere v1.2 will not work with Blender 2.80
+!!! warning
+    Physical Starlight and Atmosphere v1.2 will not work with Blender 2.80
 
 ---
 
