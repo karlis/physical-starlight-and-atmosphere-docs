@@ -1,21 +1,42 @@
 site_name: Physical Starlight and Atmosphere
 theme:
   name: material
-  features: tabs
+  features:
+    - tabs
+plugins:
+  - search
 site_url: http://starlight-manual.readthedocs.io/
 google_analytics: ['UA-86947939-2', 'mkdocs.org']
 markdown_extensions:
   - admonition
-pages:
-  - About: index.md
-  - Features: features.md
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.keys
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      permalink: true
+nav:
+#  - Home: index.md
   - Getting Started:
-    - Installation: installation.md
-    - User Interface: interface.md
-    - Fog: fog.md
-  - Support:
-    - Release Notes: release-notes.md
+    - Installation: getting-started.md
+    - Customization: customization.md
+    - Updating: updating.md
     - Frequently Asked Questions: faq.md
-    - Known Issues: issues.md
-    - Contact: contact.md
-
+  - Documentation:
+    - Overview: overview.md
+#    - Presets: presets.md
+    - Sun: sun.md
+#    - Atmosphere: atmosphere.md
+    - Ground: ground.md
+#    - Stars: stars.md
+#    - Artistic Values: artistic-values.md
+  - Changelog:
+    - Release Notes: release-notes.md
+  - About:
+    - Physical Starlight and Atmosphere: about.md
+    - Contacts: contacts.md
+extra_css:
+  - stylesheets/extra.css
