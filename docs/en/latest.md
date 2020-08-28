@@ -1,5 +1,5 @@
 ---
-redirect: /
+redirect: /physical-starlight-and-atmosphere/
 ---
 
 ### Physical Starlight and Atmosphere

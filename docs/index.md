@@ -1,5 +1,5 @@
 ---
-redirect: /getting-started
+redirect: /physical-starlight-and-atmosphere/getting-started
 ---
 
 !!! attention

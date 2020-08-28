@@ -7,6 +7,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - run: mkdir physical-starlight-and-atmosphere && cd physical-starlight-and-atmosphere
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
