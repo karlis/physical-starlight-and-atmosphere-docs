@@ -7,13 +7,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Clean install dependencies
       - uses: actions/checkout@v2
-      - run: ls -la
-      - run: pwd && cd psa
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pwd && cd psa
-      - run: ls -la
       - run: pip install mkdocs-material
+      - name: Install mkdocs in correct path
       - run: mkdocs gh-deploy --force --config-file ./mkdocs.yml
+      - working-directory: ./psa
