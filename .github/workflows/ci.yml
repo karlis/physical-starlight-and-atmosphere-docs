@@ -8,10 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: ls -la
+      - run: pwd && cd psa
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: cd psa
+      - run: pwd && cd psa
       - run: ls -la
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force --config-file ./mkdocs.yml
