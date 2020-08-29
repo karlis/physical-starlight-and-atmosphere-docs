@@ -12,7 +12,6 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material
-      - name: Install mkdocs in correct path
-        run: mkdocs gh-deploy --force --clean --config-file ./mkdocs.yml
+      - run: mkdocs gh-deploy --force --clean --config-file ./mkdocs.yml
 #        --site-dir ./psa
 #        working-directory: ./psa
