@@ -30,7 +30,7 @@ nav:
     - Overview: overview.md
 #    - Presets: presets.md
     - Sun: sun.md
-#    - Atmosphere: atmosphere.md
+    - Atmosphere: atmosphere.md
     - Ground: ground.md
 #    - Stars: stars.md
 #    - Artistic Values: artistic-values.md
