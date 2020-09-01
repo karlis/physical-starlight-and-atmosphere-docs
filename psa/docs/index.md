@@ -9,7 +9,7 @@ redirect: /psa/getting-started
 Blender addon for advanced environmental lighting that provides high quality atmospherics
 and lighting, and visual consistency between every object in your scene.
 
-[Get Started](/getting-started)  ---  [Purchase](#)
+[Get Started](/psa/getting-started)  ---  [Purchase](#)
 
 ## Testimonials here
 
