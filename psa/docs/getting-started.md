@@ -43,7 +43,7 @@ versions of addon (v1.0 and v1.1) works also on [Blender 2.80](https://www.blend
 
 ## Troubleshooting
 
-Something didn't work as expected? Check out [Frequently Asked Questions](/faq/). 
+Something didn't work as expected? Check out [Frequently Asked Questions](faq/). 
 
 
 

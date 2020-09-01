@@ -5,7 +5,7 @@ of the addon go to the store you made your purchase (either
 [Gumroad](https://gumroad.com/l/PSaA)) and grab the latest version.
 
 ### _Physical Starlight and Atmosphere_ is not installing!      
-- Please remove the old addon folder before [installing](/getting-started/#installation) a new version.
+- Please remove the old addon folder before [installing](getting-started/#installation) a new version.
 - Do not try to install it on the Blender install directory itself.
 *bad example*: `C:\ProgramFiles\Blender Foundation\Blender\2.XX\scripts\addons`. You can find correct path to install
 the addon [here](/updating).

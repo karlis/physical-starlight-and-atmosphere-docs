@@ -1,5 +1,6 @@
 site_name: Physical Starlight and Atmosphere
 site_dir: psa
+strict: true
 theme:
   name: material
   features:
