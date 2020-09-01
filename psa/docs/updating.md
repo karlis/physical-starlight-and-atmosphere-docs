@@ -20,5 +20,5 @@ If updating to a newer add-on version (or the installation method did not work) 
 
 - Remove `physical-starlight-atmosphere` folder.
 - Then either:
-    - follow normal Blender addon [installation process](/getting-started/#installation)
+    - follow normal Blender addon [installation process](/psa/getting-started/#installation)
     - or copy the contents of the .zip to the `/scripts/addons` directory and in Blender enable the add-on (go to `Edit > Preferences > Add-ons` and search for _atmosphere_ - tick the checkbox)
