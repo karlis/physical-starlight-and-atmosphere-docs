@@ -18,5 +18,5 @@ them so much more easily. Issue Tracker has a form to fill for your convenience.
  
 ## Business
  
-For business inquiries contact me directly by [email](martins@rigainnovationgroup.com).
+For business inquiries contact me directly by email writing to [physicaladdons@gmail.com](mailto:physicaladdons@gmail.com)
 
