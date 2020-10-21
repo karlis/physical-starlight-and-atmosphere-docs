@@ -1,3 +1,16 @@
+### 1.3.0 <small>- released 03.10.2020</small>
+
+`new:`   
+
+- Added ability to add or remove Presets (snapshot of your customized atmosphere settings).
+- Added 2 presets (_Earth, Mars_) that comes default with the addon installation.
+
+`improvements:`
+
+- `azimuth` and `elevation` slider sensitivity increased
+-  TODO: intensity slider sensitivity reduced
+- Adjusted sun temperature algorithm to be more accurate
+
 ### 1.2.3 <small>- released 20.08.2020</small>
 
 `fixed:`
