@@ -13,12 +13,8 @@ or use already predefined presets provided by the addon.
 * There are 2 presets offered by addon - _Earth_ & _Mars_
     * These are prefixed by `·` _(e.g. · Mars)_ and always located at the bottom of the preset list.
     * If deleted, after re-enabling the addon they will be available again.
-* Whenever Blender is newly loaded Earth is set as a default world.
-
-
-## Resetting to defaults
-Resetting sets properties to _selected preset_ default values. In case when no preset is selected,
-the value will be set to the `Earth` default value. 
+* Whenever Blender is newly loaded `· Earth` is set as a default world.
+* Resetting sets properties to _selected preset_ default values.
 
 ### How to reset?
 * To _reset single property_, hover on it and press ++backspace++ (Blender default behavior)

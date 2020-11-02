@@ -1,4 +1,6 @@
-### 1.3.0 <small>- released 03.10.2020</small>
+### 1.3.0 <small>- released 02.11.2020</small>
+
+![](img/releases/psa1.3.0.PNG)
 
 `new:`   
 
@@ -7,9 +9,14 @@
 
 `improvements:`
 
+- Now `sun intensity` stays consistent even when increasing `sun radius`.
 - `azimuth` and `elevation` slider sensitivity increased
--  TODO: intensity slider sensitivity reduced
-- Adjusted sun temperature algorithm to be more accurate
+- Improve `ground color` accuracy. Now setting it to black will really mean it's black.
+
+
+`fixed:`
+
+- Fixed an issue when sun was located near horizon the atmosphere became were washed out.  
 
 ### 1.2.3 <small>- released 20.08.2020</small>
 
