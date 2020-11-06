@@ -16,7 +16,7 @@
 
 `fixed:`
 
-- Fixed an issue when sun was located near horizon the atmosphere became were washed out.  
+- Fixed an issue when sun was located near horizon the sun color were washed out.  
 
 ### 1.2.3 <small>- released 20.08.2020</small>
 
