@@ -30,6 +30,7 @@ nav:
     - Overview: overview.md
     - Presets: presets.md
     - Sun: sun.md
+    - Binary Sun: binary-sun.md
 #    - Atmosphere: atmosphere.md
     - Ground: ground.md
 #    - Stars: stars.md
