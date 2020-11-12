@@ -5,7 +5,9 @@
 `new:`{: .label-new }   
 
 - Added ability to add or remove Presets (snapshot of your customized atmosphere settings).
-- Added 2 presets (_Earth, Mars_) that comes default with the addon installation.
+- Added 4 presets (_Earth, Mars, Nishita and Retrowave_) that comes default with the addon installation.
+- Added `Binary Sun` (secondary sun) that can be rotated around the `Sun`. For more information check section
+[Experimental Features](/psa/customization/#experimental-features)
 
 `improvements:`{: .label-improvements }   
 
