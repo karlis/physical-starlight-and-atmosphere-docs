@@ -10,10 +10,10 @@ or use already predefined presets provided by the addon.
 * You can store presets with or without `azimuth` and `elevation` properties. This allows creating 2 kinds of presets: 
     * sun position based (e.g. _Early morning_, _Foggy night_, etc.)
     * atmosphere based (e.g. _Titan Atmosphere_, _Big Sun_, etc.)
-* There are 2 presets offered by addon - _Earth_ & _Mars_
+* There are 4 presets offered by addon - _Earth_, _Mars_, _Nishita_ and _Retrowave_.
     * These are prefixed by `·` _(e.g. · Mars)_ and always located at the bottom of the preset list.
     * If deleted, after re-enabling the addon they will be available again.
-* Whenever Blender is newly loaded `· Earth` is set as a default world.
+* Whenever Blender is newly loaded or any preset gets deleted, `· Earth` is set as a default world.
 * Resetting sets properties to _selected preset_ default values.
 
 ### How to reset?

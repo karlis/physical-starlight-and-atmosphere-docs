@@ -1,5 +1,5 @@
 !!! warning "Experimental Feature"
-    This is an experimental feature and it may not be fully functional and tested for all cases
+    This is an experimental feature and it may not be fully tested
 
 > A _binary star_ is a star system consisting of two stars orbiting around their common barycenter.
 > — <cite>[Wikipedia][1]</cite>
@@ -7,22 +7,28 @@
 
 ### Distance
 
-Distance between centers of the suns.
+Distance between centers of the suns. Value ranges from 0 to 1 and the maximum distance is limited in order to maintain
+realistic lighting in `Eevee` render engine. 
 
 ### Phase
 
-A phase is one part of a cycle that goes in a circle.
+A phase is one part of a cycle that goes in a circle. Using this parameter you can rotate `Binary Sun` around the `Sun`.
 
 ### Angular Diameter
 
-Angular measurement describing how large a sphere appears from a given point of view.
+Angular measurement describing how large a sphere appears from a given point of view. This is a way to control `Sun Disc`
+size in the sky.
+
+<!-- When increased it changes the sun lamp Angle value and makes shadows more soft. -->
 
 ### Temperature K
 
-Blackbody temperature in Kelvins.
+Changes the color of the sun disk. Bigger the value, bluer the sun. In theory small stars are hotter, thus bluer,
+and big stars colder - redder.
 
 ### Intensity
 
-Binary Sun radiance intensity in W/m2. Influences sun disk and ground.
+Binary Sun radiance intensity in Watt·sr/m². Influences brightness of the sun disk.
 
 [1]: https://en.wikipedia.org/wiki/Binary_star
+*[sr]: The steradian (symbol: sr) or square radian is the SI unit of solid angle
