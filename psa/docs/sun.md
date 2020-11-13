@@ -1,28 +1,66 @@
-Sun is controlled by these 7 variables:
+<!--##Sun Position
+Sun position in the sky is controlled by the first two variables - `Azimuth` and `Elevation`. This is one of many ways
+you can control Sun position. -->
 
-![sun panel](img/UI/UI_sun.PNG){: align=right }  
+### Azimuth
 
-- Sun Azimuth
-- Sun Elevation
-- Sun Disk checkbox
-- Sun Lamp checkbox
-- Sun Angular Diameter
-- Sun Temperature K
-- Sun Radiance Intensity
+Azimuth moves the Sun position horizontally.
 
-##Sun Position
+### Elevation
 
-Sun position in the sky is controlled by the first two variables - `Azimuth` and `Elevation`. Azimuth moves the Sun
-horizontally, elevation - vertically. The values are angle in degrees. This is one of many ways you can control Sun
-position. You can move the Sun also by rotating the Sun object itself or use a `Sun Position` addon that comes with
-Blender. These two values are added for convenience if your scene is huge and you have lost the Sun object.
+Elevation moves the Sun position vertically.
+
+!!! note "Sun Position"
+    You can move the Sun also by rotating the Sun object itself or use a `Sun Position`
+    addon that comes with Blender.
+
+<!--## Sun Visibility-->
+
+### Sun Disk
+
+Toggles the visibility of the sun disk in the sky. 
+
+### Sun Lamp
+
+Toggles the sun lamp intensity. 
+
+There are few specific cases where you don't want to see the Sun disk
+visible in the sky or don't want your scene illuminated by a parametric lamp. For example, if you use Cycles, you can
+avoid using a parametric `Sun Lamp` and use the addon as HDRI.
+
+- By _disabling_ both, you get illumination by the sky only. No direct light.
+- `Sun disk` _enabled_ and `Sun Lamp` _disabled_, you essentially get a HDRI. Switch to `Cycles` and you will see how
+the sun disk is a light source - you get shadows.
+- `Sun disk` _disabled_ and `Sun Lamp` _enabled_, you have shadows and direct light, but the sun disk will not be
+visible in the sky. (can't think of a useful case for this setting)
+- Both _enabled_ - you have both, direct light and sun disk in the sky. 
+
+If you compare `Cycles` renders with `Sun Lamp` enabled and `Sun Lamp` disabled, there might not be a visual difference.
+In `Eevee` you will see huge difference in lighting and with no parametric light source there will be no shadows.
+This is because `Cycles` will sample every point in the sky as a "light source", and you will see shadows, while `Eevee`
+only approximates the lighting and uses the sky as an "irradiance map".
+
+
+
+### Angular Diameter
+
+Angular measurement describing how large a sphere appears from a given point of view. This is a way to control `Sun Disc`
+size in the sky. When increased it changes the sun lamp Angle value and makes shadows more soft.
+
+### Temperature K
+
+Changes the color of the sun disk. Bigger the value, bluer the sun. In theory small stars are hotter, thus bluer,
+and big stars colder - redder.
+
+### Intensity
+
+Binary Sun radiance intensity in Watt·sr/m². Influences brightness of the sun disk.
+
+
 
 ##Sun Visibility
 
-Now the next two parameters might seem confusing for some.
 
-- `Sun Disk` checkbox, toggles the visibility of the sun disk in the sky. 
-- `Sun Lamp` checkbox, toggles the sun lamp intensity. 
 
 I'll explain why these parameters can be useful. There are few specific cases where you don't want to see the Sun disk
 visible in the sky or don't want your scene illuminated by a parametric lamp. For example, if you use Cycles, you can
@@ -67,3 +105,5 @@ Default value is 20.0 MegaWatt·sr/m2 (calculated by dividing solar constant wit
 
 Add additional sun that rotates around the main sun. 
 
+
+*[HDRI]: High-dynamic-range imaging is a technique used to reproduce a greater range of luminosity.
