@@ -62,7 +62,7 @@ Default value is 20.0 MegaWatt·sr/m2 (calculated by dividing solar constant wit
 !!! Info
     In future I might add an option to use Lux values.
 
-### Binary Sun
+## Binary Sun
 :octicons-milestone-24: _Default_: `false` · :octicons-beaker-24: Experimental
 
 Add additional sun that rotates around the main sun. 
