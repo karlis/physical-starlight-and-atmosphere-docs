@@ -1,6 +1,6 @@
-### 1.3.0 <small>- released 02.11.2020</small>
+### 1.3.0 <small>- released 13.11.2020</small>
 
-![](img/releases/psa1.3.0.PNG)
+![](img/releases/psa1.3.0.png)
 
 `new:`{: .label-new }   
 

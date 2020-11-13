@@ -2,7 +2,7 @@ Presets allow to store a snapshot of your customized atmosphere settings and ret
 or use already predefined presets provided by the addon.
 
 !!! info
-    Presets are introduced in [v1.3.0](/psa/release-notes/#130-released-03102020). Till then default values were the
+    Presets are introduced in [v1.3.0](/psa/release-notes/#130-released-13112020). Till then default values were the
     current values of the _Earth_ preset.
 
 
